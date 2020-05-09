@@ -1,10 +1,9 @@
 # Thai-Sentiment-Classification-Using-BERT
 
-This repository contains python code to finetune BERT for Thai sentiment classification.
-
-Trained with open-source Wongnai review data.
-  Input: text review in Thai.
-  Target: rating of the review in star from 1-5.
+This repository contains python code to finetune BERT for Thai sentiment classification.\n\n
+Trained with open-source Wongnai review data.\n
+\tInput: text review in Thai.\n
+\tTarget: rating of the review in star from 1-5.\n\n
   
 The code contains the following steps:
   - set up Google Colab runtime with GPU acceleration.
