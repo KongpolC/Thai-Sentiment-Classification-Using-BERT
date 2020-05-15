@@ -1,15 +1,19 @@
 # Thai-Sentiment-Classification-Using-BERT
 
-This repository contains python code to finetune BERT for Thai sentiment classification using the pretrained model from https://github.com/ThAIKeras/bert.
+This repository contains python code to 
+Finetune BERT for Thai sentiment classification with GPU on Google Colab using the pretrained model from https://github.com/ThAIKeras/bert which uses data from Thai Wikipedia.
 
-Trained with open-source Wongnai review data.
+## Data
+Trained on open-source Wongnai restaurant review data. Source: https://github.com/wongnai/wongnai-corpus.git
   - Input: text review in Thai.
-  - Target: rating of the review in star from 1-5.
+  - Target: rating in star from 1-5.
   
-The code contains the following steps:
-  - set up Google Colab runtime with GPU acceleration.
-  - install all required libraries.
-  - download all required files.
-  - process and verify data.
-  - finetune BERT.
-  - test model's accuracy.
+## Transfer Learning Using GPU
+Main processes to fintune BERT in Thai using GPU on Google Colab include:
+  - setting up Google Colab runtime with GPU acceleration.
+  - installing all required libraries.
+  - downloading all required files.
+  - processing and verifying data.
+  - tokenizing data using SentencePiece which implements BPE
+  - finetuning BERT.
+  - testing model's accuracy.
